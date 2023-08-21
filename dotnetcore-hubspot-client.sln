@@ -7,12 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hubspot-client", "src\hubsp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E88F6C73-AE13-4D51-9C0B-1396D43BA9D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unit", "test\unit\unit.csproj", "{AA0A8629-B82A-481E-95F1-CFD9E522ED93}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "functional", "test\functional\functional.csproj", "{78A1AA01-000C-479C-9963-982FDCB960CA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "integration", "test\integration\integration.csproj", "{28CFF3C1-390A-4B9F-9AAA-AB5AAD295839}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
