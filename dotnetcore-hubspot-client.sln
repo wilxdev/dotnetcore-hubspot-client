@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hubspot-client", "src\hubspot-client.csproj", "{2ADCAB03-3F2E-4B1A-B1C9-4EEE5BB7CF10}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E88F6C73-AE13-4D51-9C0B-1396D43BA9D6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,11 +66,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{AA0A8629-B82A-481E-95F1-CFD9E522ED93} = {E88F6C73-AE13-4D51-9C0B-1396D43BA9D6}
-		{78A1AA01-000C-479C-9963-982FDCB960CA} = {E88F6C73-AE13-4D51-9C0B-1396D43BA9D6}
-		{28CFF3C1-390A-4B9F-9AAA-AB5AAD295839} = {E88F6C73-AE13-4D51-9C0B-1396D43BA9D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14A9E8A1-38A9-4370-9BD2-8A9169187633}
