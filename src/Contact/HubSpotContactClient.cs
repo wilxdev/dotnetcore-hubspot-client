@@ -212,7 +212,7 @@ namespace Skarp.HubSpotClient.Contact
                 case HubSpotAction.GetByEmail:
                     return $"{entity.RouteBasePath}/contact/email/:contactEmail:/profile";
                 case HubSpotAction.List:
-                    return $"{entity.RouteBasePath}/lists/all/contacts/all";
+                    return $"{entity.RouteBasePath}/lists/recently_updated/contacts/recent";
                 case HubSpotAction.Update:
                     return $"{entity.RouteBasePath}/contact/vid/:contactId:/profile";
                 case HubSpotAction.Delete:
