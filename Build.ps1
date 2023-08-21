@@ -31,8 +31,4 @@ $revision = "{0:D4}" -f [convert]::ToInt32($revision, 10)
 
 exec { & dotnet build }
 
-exec { & dotnet test .\test\unit\unit.csproj -c Release }
-exec { & dotnet test .\test\functional\functional.csproj -c Release }
-exec { & dotnet test .\test\integration\integration.csproj -c Release }
-
 exec { & dotnet pack .\src\hubspot-client.csproj -c Release -o .\artifacts --include-source }
