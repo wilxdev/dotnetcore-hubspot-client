@@ -57,7 +57,7 @@ namespace Skarp.HubSpotClient.UnitTest.Contact
         [Theory]
         [InlineData(HubSpotAction.Create, "/contacts/v1/contact")]
         [InlineData(HubSpotAction.Get, "/contacts/v1/contact/vid/:contactId:/profile")]
-        [InlineData(HubSpotAction.List, "/contacts/v1/lists/all/contacts/all")]
+        [InlineData(HubSpotAction.List, "/contacts/v1/lists/recently_updated/contacts/recent")]
         [InlineData(HubSpotAction.Update, "/contacts/v1/contact/vid/:contactId:/profile")]
         [InlineData(HubSpotAction.Delete, "/contacts/v1/contact/vid/:contactId:")]
         public void ContactClient_path_resolver_works(HubSpotAction action, string expetedPath)
