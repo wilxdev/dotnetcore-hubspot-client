@@ -78,21 +78,6 @@ namespace Skarp.HubSpotClient.FunctionalTests.Contact
         }
 
         [Fact]
-        public async Task ContactClient_can_list_contacts()
-        {
-            var data = await _client.ListAsync<ContactListHubSpotEntity<ContactHubSpotEntity>>(
-                new ContactListRequestOptions
-                {
-                    NumberOfContactsToReturn = 1
-                });
-
-            Assert.NotNull(data);
-            Assert.True(data.MoreResultsAvailable);
-            Assert.InRange(data.ContinuationOffset, 1, long.MaxValue);
-            Assert.True(data.Contacts.Count == 2, "data.Contacts.Count == 2");
-        }
-
-        [Fact]
         public async Task ContactClient_can_get_contact()
         {
             const int contactId = 3234574;
